@@ -1,0 +1,28 @@
+{
+  "name": "node_ldap_beta",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.0.0",
+    "ldapjs": "^0.7.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-express-server": "^0.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gom900/testldap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gom900/testldap/issues"
+  },
+  "homepage": "https://github.com/gom900/testldap"
+}
