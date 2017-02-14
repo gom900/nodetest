@@ -12,7 +12,7 @@ fs.readFile('./passwd.txt','utf8',function(err,text){
   console.log(err);
   });
   */
-text = fs.readFileSync('./passwd.txt',{ encoding:"utf8"});
+text = fs.readFileSync('./test.txt',{ encoding:"utf8"});
 list =text.replace(/\r/g, "").split("\n");
 for (var i=0; i<list.length-1; i++){
   entry= list[i].replace(/\r/g, "").split(":");
@@ -20,7 +20,7 @@ for (var i=0; i<list.length-1; i++){
   filelist.push({
      name: entry[0],
      userpassword: entry[1],
-     test:'test'
+     test:entry[2]
    });
  }
 }
