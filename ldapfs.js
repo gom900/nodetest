@@ -19,14 +19,16 @@ for (var i=0; i<list.length-1; i++){
 	console.log('name : '+entry[0]);
   filelist.push({
      name: entry[0],
+     userpassword: entry[1],
      test:'test'
    });
  }
-};
+}
 
 function getlist(){
+  init();
   return filelist;
-};
+}
 
 module.exports.init = init;
 module.exports.getlist = getlist;
