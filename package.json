@@ -10,10 +10,13 @@
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
-    "grunt-express-server": "^0.5.1"
+    "grunt-express-server": "^0.5.1",
+    "mocha": "*",
+    "should": "*",
+    "sinon": "*"
   },
   "scripts": {
-    "test": "echo \" no test \" && exit 0"
+    "test":"mocha"
   },
   "repository": {
     "type": "git",
